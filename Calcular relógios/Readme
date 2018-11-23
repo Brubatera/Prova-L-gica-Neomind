@@ -1,1 +1,3 @@
-
+Este é um projeto que contém dois algoritmos para o cálculo do ângulo entre os ponteiros de um relógio analógico.
+Relógio1 calcula o ângulo sem considerar o movimento do ponteiro da hora em relação ao movimento do ponteiro do minuto.
+Relógio2 calcula o ângulo considerando a movimentação do ponteiro da hora em relação ao ponteiro do minuto.
