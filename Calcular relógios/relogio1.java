@@ -8,8 +8,8 @@ public class relogio1{
 	public static void main(String[] args){
 	{
    Scanner ler = new Scanner(System.in);
-   try{
-         int a = 360; //circunferência do relógio
+		
+         int a = 360; //circunferÃªncia do relÃ³gio
          int b = 12; //total de horas
          int c = 60; //minutos que equivalem a 1 hora
          System.out.printf("Informe o valor da horas:");
@@ -20,21 +20,20 @@ public class relogio1{
          int ponteiroHora = 0;
          int ponteiroMinuto = 0;
          
-         ponteiroHora = (horas * a) / b; //faz o calculo da movimentação em graus do ponteiro das horas
-         ponteiroMinuto = (minutos * a) /c; // faz o cálculo da movimentação em graus do ponteiro dos minutos
+         ponteiroHora = (horas * a) / b; //faz o calculo da movimentaÃ§Ã£o em graus do ponteiro das horas
+         ponteiroMinuto = (minutos * a) /c; // faz o cÃ¡lculo da movimentaÃ§Ã£o em graus do ponteiro dos minutos
              
-            if(ponteiroHora > ponteiroMinuto){ //para obter o resultado correto, subtraímos o maior valor pelo menor
+            if(ponteiroHora > ponteiroMinuto){ //para obter o resultado correto, subtraÃ­mos o maior valor pelo menor
                   graus = ponteiroHora - ponteiroMinuto;
              }else{
                   graus = ponteiroMinuto - ponteiroHora;
              }
-            	if(graus > 180) { //Pois como queremos o ângulo convexo( menor que 180º), subtraímos o valor de graus por 180
+            	if(graus > 180) { //Pois como queremos o Ã¢ngulo convexo( menor que 180Âº), subtraÃ­mos o valor de graus por 180
       				graus -= 180;
             	}
              
                System.out.println(graus + " graus");
-               
-   }finally{
+		
       ler.close();
    }
   }
